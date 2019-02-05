@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script type="text/javascript" charset="utf-8" src="js/jquery.leanModal.min.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>University of Illinois ACM SIGGRAPH</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <style>
+  .logoclass{
+    height: 60px;
+  }
+  </style>
+
+  <script>
+    function mainpage(){
+      window.location = "./";
+    }
+
+    $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+        
+  </script>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><img src="images/logo.png" id = "logo" onclick = "mainpage()" class="logoclass" >
+      <ul class="right">
+        <li><a href="./" class='red waves-effect waves-light'>home</a></li>
+        <li><a href="projects.html" class='orange waves-effect waves-light'>projects</a></li>
+        <li><a href="events.html" class='yellow waves-effect waves-light'>events</a></li>
+        <li><a href="news.html" class='green waves-effect waves-light'>news</a></li>
+        <li><a href="members.html" class='light-blue waves-effect waves-light '>members</a></li>
+        <li><a href="about.html" class='blue waves-effect waves-light'>about</a></li>
+        <li><a href="contact.html" class='purple waves-effect waves-light'>contact</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+      <br><br><br>
+       <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="./images/suitrender1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Technical suit</h3>
+          <h5 class="light blue-text text-lighten-3">An rendered model of a cool suit</h5>
+        </div>
+      </li>
+      <li>
+        <img src="./images/shimakaze.png"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>High resoultion shimakaze model</h3>
+          <h5 class="light blue-text text-lighten-3">A very detailed model I made this summer for 3d printing</h5>
+        </div>
+      </li>
+      <li>
+        <img src="./images/internalrender.png"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Indoor render</h3>
+          <h5 class="light blue-text text-lighten-3">This is a cool showcase of what you can do with model</h5>
+        </div>
+      </li>
+      <li>
+        <img src="./images/NotAWookie.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>3D model in gaming</h3>
+          <h5 class="light blue-text text-lighten-3">Model from previous members. The head of some game character.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+    </div>
+
+
+
+  <div class="container">
+    <div class="section">
+        <div align="center">
+        <a title="SIGGRAPH Conference"
+    href="http://www.siggraph.org/current-conference">
+    <img style="border: none;" 
+    src="http://media.siggraph.org/promo/siggraph-badge.gif" 
+    alt="SIGGRAPH" width="160" height="64" />
+    </a>
+        <a title="SIGGRAPH Asia Conference"
+    href="http://www.siggraph.org/current-asia-conference">
+    <img style="border: none;" 
+    src="http://media.siggraph.org/promo/siggraph-asia-badge.gif" 
+    alt="SIGGRAPH Asia" width="160" height="64" />
+    </a></div>
+    </div>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange lighten-2">
+    <div class="container">
+      <div class="row">
+        
+          <div class='col s4'>
+                <div style="margin-right:10px;">
+                    <h5><a href='about.html'>Who Are We?</a></h5>
+                    <p>We are an official student chapter of ACM SIGGRAPH. We have an interest in all things computer graphics.</p>
+                </div>
+            </div>
+          <div class='col s4'>
+                <div style="margin-right:10px;">            
+                    <h5><a href='members.html'>Join Us!</a></h5>
+                    <p>We are always looking to add new faces to our team.  Come to one of our general meetings held every Monday at 7pm in 3401 Siebel Center.</p>
+                </div>
+            </div>
+          <div class='col s4'>
+                <div style="margin-right:0px;">   
+                <h5><a href="http://s2014.qltdclient.com/submitters/computer-animation-festival">SIGGRAPH Conference</a></h5>
+                    <p>At the SIGGRAPH conference, there is something to do and see for everyone. Find out more about this year's conference <a href="http://s2014.qltdclient.com/submitters/computer-animation-festival">here</a> and see why you should attend!</p>
+                </div>
+                </div>
+
+     
+        
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container row">
+        <div class = "col s3">
+      <img src="images/email.png" alt='Join the Mailing List' height="32"/><a href="https://www-s.acm.illinois.edu/mailman/listinfo/siggraph-announce" alt='Mailing List'>JOIN THE MAILING LIST</a>
+        </div>
+        <div class = "col s3">
+          <a class = "black-text" href="http://www.facebook.com/uiucacmsiggraph" alt='Facebook'><img src="images/facebook.png" alt='Facebook'/></a>
+          <a href="http://www.facebook.com/uiucacmsiggraph">LIKE US ON FACEBOOK</a>
+        </div>
+        <div class = "col s1">
+          <a href="http://www.illinois.edu"><img src="images/uiuc.png" alt='University of Illinois' height="32"/></a>
+          <a href="http://www.acm.uiuc.edu/"><img class='right' src="images/acm.png" alt='ACM' height="32"/></a>
+        </div>
+        <div class = "col">
+          <a href="./"><span>TM &amp; &copy;2015&nbsp;</span>UIUC ACM SIGGRAPH. All rights reserved.</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

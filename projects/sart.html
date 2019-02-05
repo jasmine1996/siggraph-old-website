@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>University of Illinois ACM SIGGRAPH</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/main.css" type="text/css" media="screen" />
+</head>
+
+<body>
+    <div id="header">
+            <span><a href="../"><img src="../images/logo.png" alt="SigGraph"/></a></span>
+            <ul id="menu">
+                <li><a href="../" class='red'>home</a></li>
+                <li><a href="../projects.html" class='orange'>projects</a></li>
+                <li><a href="../events.html" class='yellow'>events</a></li>
+                <li><a href="../news.html" class='green'>news</a></li>
+                <li><a href="../members.html" class='lblue'>members</a></li>
+                <li><a href="../about.html" class='dblue'>about</a></li>
+                <li><a href="../contact.html" class='purple'>contact</a></li>
+            </ul>
+    </div>
+        
+    <div id="content">
+    	<div class="wrap">
+        <h1 class='orange2'>Projects/</h1>
+        <h2>Spatially Augmented Reality Toolkit</h2>
+		<object width="640" height="505"><param name="movie" value="http://www.youtube.com/v/67pzdxhRbrM&hl=en&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/67pzdxhRbrM&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object><br />
+		<br />
+        <p> Using projectors as light sources we can transform the surface properties of arbitrarily complex objects. The color of a surface is normally defined by the amount of light reflected/absorbed by the particular pigment/material of the object. In spatially augmented reality we lift the properties of the surface into the light source. I.e. instead of illuminating a red object with white light, we can illuminate a white object with red light. </p>
+        <p> <a href="http://www.rsodhi.com">Rajinder Sodhi</a> and <a href="http://www.brettrjones.com">Brett Jones</a> are in the process of developing a toolkit for the development of projection mapping/spatially augmented reality (sar) applications. Our focus is on projection mapping for theater and new media installation pieces using tracking with embedded light sensors. </p>
+        <p> Currently, they are researching human computer interaction issues with spatially augmented content authoring. They are focusing on improving the content pipeline (which is largely non-existent).          Traditional video editing and computer graphics workflows are not designed for animated texturing and easily matching physical and digital models. </p>
+        <p>For the most recent updates on this research see the research blog, <a href="http://www.augmentedengineering.wordpress.com/">Augmented Engineering</a>.</p>
+        <p> In this demo we are calibrating a digital model of the box to the physical box using embedded light sensors. Essentially, the projector displays a pattern which photosensors embedded into the box recieve and decode. With this information, we can determine the positions of the sensors in the projectors frame of reference. With enough sensors (at least six) we can determine the parameters of the projector (the lens etc.) along with the rotation and orientation of the box. Then using a game engine, we render a 3D model of the box from the projectors frame of reference. Finally, applying an animated texture to the 3D model of the box, yeilds the demonstration above. This technique is explained extensively by <a href="http://www.cs.cmu.edu/%7Ejohnny/projects/thesis/">Johnny Chung Lee</a>.</p>
+        <object width="640" height="505">
+        <param name="movie" value="http://www.youtube.com/v/Sta3ToYz7tw&hl=en&fs=1&rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Sta3ToYz7tw&hl=en&fs=1&rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object><br /><br />
+        <h2>Facebook Stalking (Projection Mapping)</h2>
+<p> A new media exhibit piece designed to push the boundaries of digital identity. This piece was created with spatially augmented reality/projection mapping techniques, using software developed as part of a larger research project. </p>
+<p> As a background, this was presented as a final project in a <a href="http://courses.art.uiuc.edu/spring2007/arts443m9/">new media art class</a>. A facebook friend request was sent to everyone in the class in order to research their digital identities. Without their knowledge a video of their facebook photos was constructed and a projection mapped mannequin head was used to comment on their photos. </p>
+<p>Note that the video is calibrated to a 3D digital model of the mannequin head. The projection onto the mannequin head is then computed in realtime with the software we developed.</p>
+<br />
+        </div>
+        
+		<div id="footer">
+            <p>
+            	<a href="https://www-s.acm.uiuc.edu/cgi-bin/mailman/listinfo/siggraph-l" alt='Mailing List'><img src="../images/email.png" alt='Join the Mailing List' height="32"/> JOIN THE MAILING LIST</a>
+                <a class='shift' href="http://www.twitter.com/uiucsiggraph">FOLLOW ON</a><a href="http://www.twitter.com/uiucsiggraph" alt='Twitter'><img class='right' src="../images/twitter.png" alt='Join the Mailing List'/></a>
+                <a class='longshift' href="http://www.illinois.edu"><img class='right' src="../images/uiuc.png" alt='University of Illinois' height="32"/></a>
+                <a class='shortshift' href="http://www.acm.uiuc.edu/"><img class='right' src="../images/acm.png" alt='ACM' height="32"/></a>
+            </p>
+	        <p class="right"><span class='left'>TM &amp; &copy;2009&nbsp;</span><a href="http://www.acm.uiuc.edu/">UIUC ACM SIGGRAPH</a>. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
